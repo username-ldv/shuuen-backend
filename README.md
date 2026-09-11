@@ -1,5 +1,12 @@
 # Shuuen Backend
 
+> [!IMPORTANT]
+> **This repository has moved.** The backend now lives in
+> [`backend/`](https://github.com/username-ldv/shuuen/tree/main/backend) of the
+> [Shuuen monorepo](https://github.com/username-ldv/shuuen), where this repository's full
+> history was imported. This repository is archived and read-only. Release `v0.0.1` here
+> corresponds to the tag `backend-v0.0.1` in the monorepo.
+
 Go backend for a Fiber v3 API with GORM, role-aware JWT authentication, recursive filesystem-backed catalog indexing, and file retrieval. It is designed for a single application instance today while keeping storage and catalog responsibilities separable for a future multi-instance deployment.
 
 ## Stack
